@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
     
-public class HelloJava {
+public class Practice {
     public static void main(String[] args) {
 	Scanner s = null;
 	try {
@@ -32,6 +32,7 @@ public class HelloJava {
 			   "-squares of sum " + day);
     }
 
+    /* https://www.hackerrank.com/challenges/the-birthday-bar/problem */
     private static int countSquares(int[] x, int size, int month, int day) {
 	int count = 0, sum = 0;
 	for (int i = 0; i < month; i++) {
@@ -53,4 +54,6 @@ public class HelloJava {
 	}
 	return count;
     }
+
+    /* https://www.hackerrank.com/challenges/divisible-sum-pairs/problem */
 }
